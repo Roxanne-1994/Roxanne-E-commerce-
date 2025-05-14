@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roxanne E-Commerce</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">Purple Tech Store</h1>
+    <button id="cart-btn" class="relative">
+      Cart
+      <span id="cart-count" class="bg-red-500 text-white text-xs px-2 rounded-full absolute -top-2 -right-2">0</span>
+    </button>
+  </header>
+
+  <!-- About Us -->
+  <section class="bg-purple-700 text-white p-6">
+    <h2 class="text-3xl font-semibold">About Us</h2>
+    <p class="mt-4 text-lg">
+      At SmartTechie Hub, we offer the latest and most reliable tech gadgets. Our mission is to provide top-quality electronics with excellent customer service.
+    </p>
+  </section>
+
+  <!-- Product Grid -->
+  <main class="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    
+    <!-- Product Cards -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="headset.jpg" alt="Wireless Headset" class="product-img">
+      <div class="p-4">
+        <h2 class="text-lg font-semibold">Wireless Headphones</h2>
+        <p class="text-gray-600 text-sm mb-2">High-quality sound with noise cancellation.</p>
+        <div class="flex justify-between items-center">
+          <span class="text-purple-600 font-bold">$49.99</span>
+          <button class="bg-purple-600 text-white text-sm px-3 py-1 rounded hover:bg-purple-700">Buy</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="speaker.jpg" alt="Bluetooth Speaker" class="product-img">
+      <div class="p-4">
+        <h2 class="text-lg font-semibold">Bluetooth Speaker</h2>
+        <p class="text-gray-600 text-sm mb-2">Portable speaker with deep bass and 10hr battery.</p>
+        <div class="flex justify-between items-center">
+          <span class="text-purple-600 font-bold">$29.99</span>
+          <button class="bg-purple-600 text-white text-sm px-3 py-1 rounded hover:bg-purple-700">Buy</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="watch.jpg" alt="Smart Watch" class="product-img">
+      <div class="p-4">
+        <h2 class="text-lg font-semibold">Smart Watch</h2>
+        <p class="text-gray-600 text-sm mb-2">Track health, calls, and more from your wrist.</p>
+        <div class="flex justify-between items-center">
+          <span class="text-purple-600 font-bold">$99.99</span>
+          <button class="bg-purple-600 text-white text-sm px-3 py-1 rounded hover:bg-purple-700">Buy</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="daily tarc.jpg" alt="Fitness Tracker" class="product-img">
+      <div class="p-4">
+        <h2 class="text-lg font-semibold">Fitness Tracker</h2>
+        <p class="text-gray-600 text-sm mb-2">Monitors steps, heart rate, and calories.</p>
+        <div class="flex justify-between items-center">
+          <span class="text-purple-600 font-bold">$39.99</span>
+          <button class="bg-purple-600 text-white text-sm px-3 py-1 rounded hover:bg-purple-700">Buy</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="POWER BANK.jpg" alt="Fitness Tracker" class="product-img">
+      <div class="p-4">
+        <h2 class="text-lg font-semibold">Power Bank</h2>
+        <p class="text-gray-600 text-sm mb-2">10000mAh fast-charging portable power bank.</p>
+        <div class="flex justify-between items-center">
+          <span class="text-purple-600 font-bold">$24.99</span>
+          <button class="bg-purple-600 text-white text-sm px-3 py-1 rounded hover:bg-purple-700">Buy</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="MOUSE.jpg" alt="Wireless Mouse" class="product-img">
+      <div class="p-4">
+        <h2 class="text-lg font-semibold">Wireless Mouse</h2>
+        <p class="text-gray-600 text-sm mb-2">Ergonomic, fast, and battery-saving performance.</p>
+        <div class="flex justify-between items-center">
+          <span class="text-purple-600 font-bold">$19.99</span>
+          <button class="bg-purple-600 text-white text-sm px-3 py-1 rounded hover:bg-purple-700">Buy</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-purple-700 text-white p-6 text-sm">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-4 gap-6">
+      <div>
+        <h4 class="text-lg font-semibold mb-2">About Us</h4>
+        <p>We are SmartTechie Hub, your go-to store for the latest tech gadgets.</p>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-2">Our Store</h4>
+        <p>499 View Street, Pretoria</p>
+        <p>Open: Mon–Sat, 8am–7pm</p>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-2">Contact Us</h4>
+        <p>Phone: <a href="tel:+27813458838" class="underline">+27813458838</a></p>
+        <p>Email: <a href="mailto:support@smarttechhub.com" class="underline">support@smarttechhub.com</a></p>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-2">Stay Connected</h4>
+        <p>Facebook • Instagram • WhatsApp</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
